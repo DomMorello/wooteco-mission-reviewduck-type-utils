@@ -2,7 +2,7 @@
   "name": "wooteco-mission-reviewduck-type-utils",
   "version": "0.0.2",
   "description": "회고덕 프로젝트에서 사용되는 범용 타입 모듈입니다.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "files": [
     "./dist/"
   ],
