@@ -1,3 +1,5 @@
-export type PickParameterType<T extends (...rest: any[]) => any> = T extends (...rest: infer P) => any ? P : never;
+export type NumberString = `${number}` | number;
 
-export type PickReturnType<T extends (...rest: any[]) => any> = T extends (...rest: any[]) => infer P ? P : never;
+type ElapsedTimeText = "초 전" | "분 전" | "시간 전" | "일 전";
+
+export type ElapsedTime = `${number}${ElapsedTimeText}` | `${number}년 ${number}월 ${number}일`;
