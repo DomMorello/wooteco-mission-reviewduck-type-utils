@@ -11,7 +11,8 @@
     "url": "https://github.com/DomMorello/wooteco-mission-reviewduck-type-utils"
   },
   "contributors": [
-    "Ryu Hyun Seung <94832610+compy-ryu@users.noreply.github.com>"
+    "Ryu Hyun Seung <94832610+compy-ryu@users.noreply.github.com>",
+    "DomMorello <zuzudnf@gmail.com>"
   ],
   "sideEffects": false,
   "scripts": {
@@ -19,7 +20,6 @@
     "deploy": "rm -rf ./dist && tsc --build; npm version patch; npm publish --access=public",
     "test": "jest --verbose"
   },
-  "author": "",
   "license": "MIT",
   "private": false,
   "bugs": {
